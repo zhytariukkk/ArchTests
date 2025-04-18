@@ -1,0 +1,29 @@
+GET http://localhost:8080/api/rooms/1
+###
+
+POST http://localhost:8080/api/rooms
+Content-Type: application/json
+
+{
+  "name": "Living Room"
+}
+
+###
+POST http://localhost:8080/api/rooms
+Content-Type: application/json
+
+{
+  "name": "Bathroom"
+}
+###
+
+PUT http://localhost:8080/api/rooms/3
+Content-Type: application/json
+
+{
+  "name": "Updated Living Room"
+}
+
+###
+
+DELETE http://localhost:8080/api/rooms/3
