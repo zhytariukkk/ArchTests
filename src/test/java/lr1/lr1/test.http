@@ -1,29 +1,26 @@
-GET http://localhost:8080/api/rooms/1
 ###
-
-POST http://localhost:8080/api/rooms
+POST http://localhost:8080/api/devices
 Content-Type: application/json
 
-{
-  "name": "Living Room"
-}
+{"name": "Smart Light", "type": "Lighting", "room": {"id": 1}}
 
 ###
-POST http://localhost:8080/api/rooms
+GET http://localhost:8080/api/devices/3
+
+###
+DELETE http://localhost:8080/api/devices/2
+
+###
+PUT http://localhost:8080/api/devices/2
 Content-Type: application/json
 
-{
-  "name": "Bathroom"
-}
-###
+{"name": "Light Controller", "type": "Switch", "room": {"id": 1}}
 
-PUT http://localhost:8080/api/rooms/3
+###
+PUT http://localhost:8080/api/devices/2
 Content-Type: application/json
 
-{
-  "name": "Updated Living Room"
-}
+{"name": "Updated Smart Light", "type": "Lighting", "room": {"id": 1}}
 
 ###
-
-DELETE http://localhost:8080/api/rooms/3
+DELETE http://localhost:8080/api/devices/1
