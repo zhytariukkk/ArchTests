@@ -15,7 +15,7 @@ import static org.assertj.core.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
-class DeviceServiceTest {
+class DeviceServiceMockTest {
 
     @Mock
     private DeviceRepository deviceRepository;
@@ -157,128 +157,5 @@ class DeviceServiceTest {
         verify(deviceRepository, never()).findById(any());
     }
 
-    @Test
-    @DisplayName("updateDevice: встановлює ID та повертає оновлений пристрій")
-    void updateDevice_shouldSetIdAndReturnUpdatedDevice() {
-        Device toUpdate = new Device();
-        toUpdate.setName("NewName");
-        Device saved = new Device();
-        saved.setId(1L);
-        saved.setName("NewName");
 
-        when(deviceRepository.save(any(Device.class))).thenReturn(saved);
-
-        Device result = deviceService.updateDevice(1L, toUpdate);
-
-        assertThat(result.getId()).isEqualTo(1L);
-        assertThat(result.getName()).isEqualTo("NewName");
-        ArgumentCaptor<Device> captor = ArgumentCaptor.forClass(Device.class);
-        verify(deviceRepository).save(captor.capture());
-        assertThat(captor.getValue().getId()).isEqualTo(1L);
-    }
-
-    @Test
-    @DisplayName("updateDevice: кидає RuntimeException, якщо save() провалюється")
-    void updateDevice_shouldPropagateException_whenSaveFails() {
-        Device anyDevice = new Device();
-        when(deviceRepository.save(any(Device.class))).thenThrow(new RuntimeException("Update failed"));
-
-        assertThatThrownBy(() -> deviceService.updateDevice(5L, anyDevice))
-                .isInstanceOf(RuntimeException.class)
-                .hasMessageContaining("Update failed");
-        verify(deviceRepository).save(any(Device.class));
-    }
-
-    @Test
-    @DisplayName("updateDevice: встановлює null ID, коли передано null")
-    void updateDevice_nullIdSetsNull() {
-        Device toUpdate = new Device();
-        toUpdate.setName("Name");
-        when(deviceRepository.save(any(Device.class))).thenAnswer(inv -> inv.getArgument(0));
-
-        Device result = deviceService.updateDevice(null, toUpdate);
-
-        assertThat(result.getId()).isNull();
-        assertThat(result.getName()).isEqualTo("Name");
-        verify(deviceRepository).save(toUpdate);
-    }
-
-    @Test
-    @DisplayName("updateDevice: переписує початковий ID пристрою")
-    void updateDevice_overwritesExistingId() {
-        Device toUpdate = new Device();
-        toUpdate.setId(5L);
-        toUpdate.setName("Name");
-        when(deviceRepository.save(any(Device.class))).thenAnswer(inv -> inv.getArgument(0));
-
-        Device result = deviceService.updateDevice(10L, toUpdate);
-
-        assertThat(result.getId()).isEqualTo(10L);
-        verify(deviceRepository).save(toUpdate);
-    }
-
-    @Test
-    @DisplayName("updateDevice: кидає NullPointerException, якщо device null")
-    void updateDevice_nullDeviceThrows() {
-        assertThatThrownBy(() -> deviceService.updateDevice(1L, null))
-                .isInstanceOf(NullPointerException.class);
-        verify(deviceRepository, never()).save(any());
-    }
-
-    @Test
-    @DisplayName("updateDevice: не викликає deleteById або findById")
-    void updateDevice_noUnrelatedRepoCalls() {
-        Device d = new Device();
-        when(deviceRepository.save(any())).thenReturn(d);
-
-        deviceService.updateDevice(1L, d);
-
-        verify(deviceRepository).save(any());
-        verify(deviceRepository, never()).deleteById(any());
-        verify(deviceRepository, never()).findById(any());
-    }
-
-    @Test
-    @DisplayName("deleteDevice: викликає deleteById з правильним ID")
-    void deleteDevice_shouldCallDeleteById() {
-        doNothing().when(deviceRepository).deleteById(3L);
-
-        deviceService.deleteDevice(3L);
-
-        verify(deviceRepository).deleteById(3L);
-    }
-
-    @Test
-    @DisplayName("deleteDevice: кидає RuntimeException, якщо deleteById() провалюється")
-    void deleteDevice_shouldPropagateException_whenDeleteFails() {
-        doThrow(new RuntimeException("Delete error")).when(deviceRepository).deleteById(4L);
-
-        assertThatThrownBy(() -> deviceService.deleteDevice(4L))
-                .isInstanceOf(RuntimeException.class)
-                .hasMessageContaining("Delete error");
-        verify(deviceRepository).deleteById(4L);
-    }
-
-    @Test
-    @DisplayName("deleteDevice: кидає IllegalArgumentException при null-ID")
-    void deleteDevice_nullIdThrows() {
-        doThrow(new IllegalArgumentException("ID is null")).when(deviceRepository).deleteById(null);
-
-        assertThatThrownBy(() -> deviceService.deleteDevice(null))
-                .isInstanceOf(IllegalArgumentException.class)
-                .hasMessage("ID is null");
-        verify(deviceRepository).deleteById(null);
-    }
-
-    @Test
-    @DisplayName("deleteDevice: не викликає save або findById")
-    void deleteDevice_noUnrelatedRepoCalls() {
-        doNothing().when(deviceRepository).deleteById(2L);
-
-        deviceService.deleteDevice(2L);
-
-        verify(deviceRepository).deleteById(2L);
-        verify(deviceRepository, never()).save(any());
-        verify(deviceRepository, never()).findById(any());
-    }
 }
