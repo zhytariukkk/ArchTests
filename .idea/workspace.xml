@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1fc946dd-9ffa-4e10-a2d8-572f3c7d196a" name="Changes" comment="mocking done" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lr4" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;stugnait&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/stugnait/Arch-Tests.git&quot;,
+    &quot;accountId&quot;: &quot;6b63bdd9-3427-481c-b6b0-dd1eb0b33039&quot;
+  }
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2uHKnENzneeXPz9OVbF5MZE1UOO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.test | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.test | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.test | #3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.test | #4.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.test | #5.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ControllerIntegrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ControllerIntegrationTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ControllerUnitTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ControllerWebMvcTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DeviceControllerUnitTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DeviceRepositoryTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DeviceServiceTest.createDevice_multipleInvocations.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DeviceServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DeviceServiceTest.getDeviceById_shouldPropagateRepoException.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProjArchitectureTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProjArchitectureTests.servicesShouldNotBeAccessedByRepositoriesOrModels.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RepositoryTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RepositoryTests.shouldNotSaveDeviceWithNullType.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RepositoryTests.shouldThrowExceptionWhenSavingDeviceWithNullType.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RoomControllerUnitTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RoomServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.SmartHomeApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Smart-Home&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\STUGNA\OneDrive\Рабочий стол\Monolit\src\test" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="lr1.lr1" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="DeviceControllerUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lr1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lr1.lr1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lr1.lr1" />
+      <option name="MAIN_CLASS_NAME" value="lr1.lr1.DeviceControllerUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeviceServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lr1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lr1.lr1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lr1.lr1" />
+      <option name="MAIN_CLASS_NAME" value="lr1.lr1.DeviceServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeviceServiceTest.createDevice_multipleInvocations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lr1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lr1.lr1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lr1.lr1" />
+      <option name="MAIN_CLASS_NAME" value="lr1.lr1.DeviceServiceTest" />
+      <option name="METHOD_NAME" value="createDevice_multipleInvocations" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeviceServiceTest.getDeviceById_shouldPropagateRepoException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lr1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lr1.lr1.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lr1.lr1.service" />
+      <option name="MAIN_CLASS_NAME" value="lr1.lr1.service.DeviceServiceTest" />
+      <option name="METHOD_NAME" value="getDeviceById_shouldPropagateRepoException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoomServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lr1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lr1.lr1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lr1.lr1" />
+      <option name="MAIN_CLASS_NAME" value="lr1.lr1.RoomServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Monolit" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Monolit" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SmartHomeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="lr1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="lr1.lr1.SmartHomeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RoomServiceTest" />
+        <item itemvalue="JUnit.DeviceServiceTest.getDeviceById_shouldPropagateRepoException" />
+        <item itemvalue="JUnit.DeviceServiceTest.createDevice_multipleInvocations" />
+        <item itemvalue="JUnit.DeviceServiceTest" />
+        <item itemvalue="JUnit.DeviceControllerUnitTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.39" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.39" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1fc946dd-9ffa-4e10-a2d8-572f3c7d196a" name="Changes" comment="" />
+      <created>1741900225044</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741900225044</updated>
+      <workItem from="1741900226324" duration="4719000" />
+      <workItem from="1744925075227" duration="3611000" />
+      <workItem from="1745006075963" duration="730000" />
+      <workItem from="1745495831176" duration="5780000" />
+      <workItem from="1745504098099" duration="1153000" />
+      <workItem from="1745840324830" duration="109000" />
+      <workItem from="1745840446620" duration="2605000" />
+      <workItem from="1745844593617" duration="11000" />
+      <workItem from="1745846601499" duration="872000" />
+      <workItem from="1745847748747" duration="30000" />
+      <workItem from="1745847788247" duration="320000" />
+      <workItem from="1745848202698" duration="1828000" />
+      <workItem from="1745851790249" duration="4605000" />
+      <workItem from="1746040198533" duration="4408000" />
+      <workItem from="1746361261182" duration="112000" />
+      <workItem from="1746651687016" duration="10000" />
+    </task>
+    <task id="LOCAL-00001" summary="update">
+      <option name="closed" value="true" />
+      <created>1741901933231</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741901933231</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update 2">
+      <option name="closed" value="true" />
+      <created>1744927947034</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744927947034</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update 2">
+      <option name="closed" value="true" />
+      <created>1745006113024</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1745006113024</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update 3">
+      <option name="closed" value="true" />
+      <created>1745504137880</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1745504137880</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update 4">
+      <option name="closed" value="true" />
+      <created>1745504186813</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1745504186813</updated>
+    </task>
+    <task id="LOCAL-00006" summary="all working">
+      <option name="closed" value="true" />
+      <created>1745847759017</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1745847759018</updated>
+    </task>
+    <task id="LOCAL-00007" summary="all working, eto shok! call the ambulance!!">
+      <option name="closed" value="true" />
+      <created>1746043110263</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1746043110263</updated>
+    </task>
+    <task id="LOCAL-00008" summary="lab4 done">
+      <option name="closed" value="true" />
+      <created>1746652906990</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1746652906990</updated>
+    </task>
+    <task id="LOCAL-00009" summary="lab4 done">
+      <option name="closed" value="true" />
+      <created>1746652911911</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1746652911911</updated>
+    </task>
+    <task id="LOCAL-00010" summary="lab3 done">
+      <option name="closed" value="true" />
+      <created>1746653127509</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1746653127509</updated>
+    </task>
+    <task id="LOCAL-00011" summary="lab3 done">
+      <option name="closed" value="true" />
+      <created>1746653158573</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1746653158573</updated>
+    </task>
+    <task id="LOCAL-00012" summary="mocking done">
+      <option name="closed" value="true" />
+      <created>1747427785752</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1747427785752</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <MESSAGE value="update 2" />
+    <MESSAGE value="update 3" />
+    <MESSAGE value="update 4" />
+    <MESSAGE value="all working" />
+    <MESSAGE value="all working, eto shok! call the ambulance!!" />
+    <MESSAGE value="lab4 done" />
+    <MESSAGE value="lab3 done" />
+    <MESSAGE value="mocking done" />
+    <option name="LAST_COMMIT_MESSAGE" value="mocking done" />
+  </component>
+</project>
